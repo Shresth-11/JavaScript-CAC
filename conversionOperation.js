@@ -18,13 +18,26 @@ true => 1; false => 0
 null => 0
 */
 
-let isLoggedIn = 1;
-let booleanIsLoggedIn = Boolean(isLoggedIn);
-console.log(booleanIsLoggedIn);
-
+// let isLoggedIn = 1;
+// let booleanIsLoggedIn = Boolean(isLoggedIn);
+// console.log(booleanIsLoggedIn);
 
 // 1 => true; 0=> false
 // "" => false
 // "hitesh" => true
+
+// ************************ Operations ********************************
+
+let value = 3;
+let negValue = -value;
+// console.log(negValue);
+
+console.log("1" + 2);
+console.log("1" + 2 + 2); // hahaha output => 122
+console.log(1 + 2 + "2"); // hahaha output => 32
+
+console.log(+true); // hahaha output => 1
+console.log(+""); // hahaha output => 0
+
 
 
