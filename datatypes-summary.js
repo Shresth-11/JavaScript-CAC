@@ -32,3 +32,29 @@ const myFunction = function () {
 
 console.log(typeof outsideTemp); // object output
 console.log(typeof heroes); // object output
+
+// *************************************************************************************
+
+// Stack (Primitve), Heap (Non-Primitive)
+/* Tack me data ka copy milta hai , or heap me reference milta hai yani change kiyaa toh change ho jayega original value*/
+
+let myYoutubeName = "shresth";
+let anotherName = myYoutubeName;
+
+anotherName = "chaiaurcode";
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne = {
+  email: "user@google.com",
+  upi: "user@ybl",
+};
+
+let userTwo = userOne;
+
+userTwo.email = "shresth@google.com";
+
+console.log(userOne);
+console.log(userTwo);
+
