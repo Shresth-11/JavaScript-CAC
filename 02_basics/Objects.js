@@ -5,7 +5,7 @@
 
 // Literals constructor and singleton are ways to declare a object!!!!
 
-// Object Literals
+// Object Literals****************************************************************************************************************************
 // Object.create  // ------ yehi h constructor method k through object bnana
 
 const mySym = Symbol("key1");
