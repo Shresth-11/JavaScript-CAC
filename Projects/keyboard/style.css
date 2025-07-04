@@ -1,0 +1,28 @@
+nav {
+  background-color: wheat;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  background-color: whitesmoke;
+  border: 2px solid black;
+  padding: 5px 10px;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+button {
+  border-radius: 6px;
+  height: 30px;
+  width: 70px;
+}
+
+nav a:hover {
+  background-color: #0056b3;
+}
